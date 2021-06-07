@@ -14,7 +14,7 @@ services:
       - .:/usr/src
       - modules_data:/usr/src/node_modules
       - next_data:/usr/src/.next
-    command: yarn dev
+    command: ash -c "yarn install && yarn dev"
     ports:
       - '3000:3000'
     working_dir: /usr/src

@@ -1,6 +1,7 @@
 # Next.js with docker boilerplate.
 
-- node: v12.13.0
+- nextjs: v12.0.3
+- node: v12.22.0
 
 ## Getting Started
 

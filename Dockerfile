@@ -1,4 +1,4 @@
-FROM node:12.22.0-alpine
+FROM node:18.12.0-alpine
 
 RUN apk update && \
-    apk add git vim
+    apk --no-cache add git vim

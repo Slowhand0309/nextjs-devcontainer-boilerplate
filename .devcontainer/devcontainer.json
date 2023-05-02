@@ -3,15 +3,22 @@
   "dockerComposeFile": ["../docker-compose.yml"],
   "service": "nextjs",
   "workspaceFolder": "/usr/src",
-  "extensions": [
-    "formulahendry.auto-rename-tag",
-    "ms-vscode.vscode-typescript-tslint-plugin",
-    "esbenp.prettier-vscode"
-  ],
-  "settings": {
-    "editor.tabSize": 2,
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "formulahendry.auto-rename-tag",
+        "ms-vscode.vscode-typescript-tslint-plugin",
+        "esbenp.prettier-vscode",
+        "yoavbls.pretty-ts-errors",
+        "albert.TabOut",
+        "ChakrounAnas.turbo-console-log"
+      ],
+      "settings": {
+        "editor.tabSize": 2,
+        "files.insertFinalNewline": true,
+        "files.trimFinalNewlines": true
+      }
+    }
   },
   "shutdownAction": "none"
 }

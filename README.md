@@ -1,9 +1,6 @@
 # Next.js with docker boilerplate.
 
-- nextjs: v13.2.4
-- react: v18.2.0
-- typescript: v5.0.2
-- node: v18.15.11
+https://github.com/Slowhand0309/nextjs-docker-boilerplate/blob/e510e59edb6045e438fb84e82dc5a99b0c4b14d4/package.json#L11-L24
 
 ## Getting Started
 

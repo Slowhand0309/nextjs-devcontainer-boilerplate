@@ -4,6 +4,8 @@ volumes:
     driver: local
   next_data:
     driver: local
+  vercel_data:
+    driver: local
 
 services:
   nextjs:
@@ -14,6 +16,7 @@ services:
       - .:/usr/src
       - modules_data:/usr/src/node_modules
       - next_data:/usr/src/.next
+      - vercel_data:/root/.local/share/com.vercel.cli
     command: ash -c "yarn install && yarn dev"
     ports:
       - '3000:3000'

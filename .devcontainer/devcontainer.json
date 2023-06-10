@@ -15,8 +15,15 @@
       ],
       "settings": {
         "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true
+        },
         "files.insertFinalNewline": true,
-        "files.trimFinalNewlines": true
+        "files.trimFinalNewlines": true,
+        // ↓は不要になったら外す
+        // https://github.com/prettier/prettier-vscode/issues/3020#issuecomment-1584068844
+        "prettier.prettierPath": "./node_modules/prettier"
       }
     }
   },

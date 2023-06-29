@@ -8,10 +8,13 @@
       "extensions": [
         "formulahendry.auto-rename-tag",
         "ms-vscode.vscode-typescript-tslint-plugin",
+        "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
         "yoavbls.pretty-ts-errors",
         "albert.TabOut",
-        "ChakrounAnas.turbo-console-log"
+        "ChakrounAnas.turbo-console-log",
+        "Gruntfuggly.todo-tree",
+        "GitHub.copilot"
       ],
       "settings": {
         "editor.tabSize": 2,

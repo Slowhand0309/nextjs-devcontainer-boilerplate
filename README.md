@@ -1,6 +1,7 @@
 # Next.js with docker boilerplate.
 
-https://github.com/Slowhand0309/nextjs-docker-boilerplate/blob/main/package.json#L11-L24
+- [Next.js](https://nextjs.org/)
+- [Chakra UI](https://chakra-ui.com/)
 
 ## Getting Started
 

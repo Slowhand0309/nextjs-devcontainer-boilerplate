@@ -1,6 +1,6 @@
 {
   "name": "Next.js remote container dev",
-  "dockerComposeFile": ["../docker-compose.yml"],
+  "dockerComposeFile": ["docker-compose.yml"],
   "service": "nextjs",
   "workspaceFolder": "/usr/src",
   "customizations": {
@@ -27,5 +27,6 @@
       }
     }
   },
-  "shutdownAction": "none"
+  "postAttachCommand": ".devcontainer/postAttach.sh",
+  "remoteUser": "vscode"
 }

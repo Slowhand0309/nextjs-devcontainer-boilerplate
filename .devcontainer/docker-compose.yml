@@ -1,11 +1,8 @@
-version: '3.3'
+version: '3.8'
 volumes:
   modules_data:
-    driver: local
   next_data:
-    driver: local
   vercel_data:
-    driver: local
 
 services:
   nextjs:
@@ -13,11 +10,11 @@ services:
     image: slowhand/nextjs
     container_name: "nextjs"
     volumes:
-      - .:/usr/src
+      - ..:/usr/src
       - modules_data:/usr/src/node_modules
       - next_data:/usr/src/.next
-      - vercel_data:/root/.local/share/com.vercel.cli
-    command: ash -c "yarn install && yarn dev"
+      - vercel_data:/home/vscode/.local/share/com.vercel.cli
+    command: /bin/sh -c "while sleep 1000; do :; done"
     ports:
       - '3000:3000'
     working_dir: /usr/src

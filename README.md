@@ -12,8 +12,9 @@
 ```sh
 $ git clone ...
 $ cd ...
-$ docker compose up
 ```
+
+Select `Dev Containers: Reopen in Container` menu on VSCode (or other IDE).
 
 access: http://localhost:3000/
 

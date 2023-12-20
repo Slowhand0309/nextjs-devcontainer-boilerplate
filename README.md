@@ -1,6 +1,6 @@
 <div align="center">
 
-# Next.js with docker boilerplate.
+# Next.js + Chakra UI with Devcontainer boilerplate.
 
 [![Package - react](https://img.shields.io/github/package-json/dependency-version/Slowhand0309/nextjs-docker-boilerplate/react?logo=react&logoColor=white&color=green)](https://www.npmjs.com/package/react) [![Package - next](https://img.shields.io/github/package-json/dependency-version/Slowhand0309/nextjs-docker-boilerplate/next?logo=next.js&logoColor=white&color=black)](https://www.npmjs.com/package/next) [![Package - @chakra-ui/react](https://img.shields.io/github/package-json/dependency-version/Slowhand0309/nextjs-docker-boilerplate/@chakra-ui/react?logo=chakra-ui&logoColor=white&color=cyan)](https://www.npmjs.com/package/@chakra-ui/react) [![Package - typescript](https://img.shields.io/github/package-json/dependency-version/Slowhand0309/nextjs-docker-boilerplate/dev/typescript?logo=typescript&logoColor=white&color=blue)](https://www.npmjs.com/package/typescript)
 

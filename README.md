@@ -6,6 +6,7 @@
 
 </div>
 
+<img src="./art/screen.png" alt="screen" width="100%">
 
 ## Getting Started
 

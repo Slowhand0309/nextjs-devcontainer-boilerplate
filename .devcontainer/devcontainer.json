@@ -1,19 +1,15 @@
 {
   "name": "Next.js remote container dev",
-  "dockerComposeFile": ["docker-compose.yml"],
+  "dockerComposeFile": ["compose.yml"],
   "service": "nextjs",
   "workspaceFolder": "/usr/src",
   "customizations": {
     "vscode": {
       "extensions": [
         "formulahendry.auto-rename-tag",
-        "ms-vscode.vscode-typescript-tslint-plugin",
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
         "yoavbls.pretty-ts-errors",
-        "albert.TabOut",
-        "ChakrounAnas.turbo-console-log",
-        "Gruntfuggly.todo-tree",
         "GitHub.copilot"
       ],
       "settings": {
@@ -26,6 +22,9 @@
         "files.trimFinalNewlines": true
       }
     }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
   },
   "postAttachCommand": ".devcontainer/postAttach.sh",
   "remoteUser": "vscode"

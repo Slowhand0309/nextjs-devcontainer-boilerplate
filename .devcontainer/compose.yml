@@ -1,9 +1,9 @@
-version: '3.8'
 volumes:
   modules_data:
   next_data:
   vercel_data:
 
+name: nextjs-devcontainer-boilerplate
 services:
   nextjs:
     build: .

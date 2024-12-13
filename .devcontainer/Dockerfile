@@ -1,4 +1,4 @@
-FROM node:20.10.0-bullseye-slim
+FROM node:22.7.0-bullseye-slim
 LABEL maintainer="Slowhand0309"
 
 ARG username=vscode
@@ -8,8 +8,8 @@ ARG usergid=${useruid}
 RUN set -ex \
     && apt-get update \
     && apt-get install -y \
-        git \
         sudo \
+        curl \
         --no-install-recommends \
     && groupadd --gid ${usergid} ${username} \
     && useradd -s /bin/bash --uid ${useruid} --gid ${usergid} -m ${username} \
